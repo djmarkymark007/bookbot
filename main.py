@@ -8,7 +8,7 @@ def main():
             print_report(file_name, word_count, letter_count)
 
     except Exception as e:
-        print(f"could not open: {e}")
+        print(e)
 
 def get_count_word(text):
     words = text.split()
